@@ -1,8 +1,11 @@
 import plugins
 
 
-def main():
+def main() -> int:
     plugin_list = plugins.get_plugins()
+    if len(plugin_list) < 1:
+        print("No plugins found. put plugins (.py file) in /plugins.")
+        return 1
     print('plugins:')
     for i in range(len(plugin_list)):
         print(f'\t{i}. {plugin_list[i]}')
