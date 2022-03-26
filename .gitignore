@@ -1,0 +1,16 @@
+.vscode/
+*.code-workspace
+.history/
+.idea/
+*.iml
+*.iws
+.idea_modules/
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+plugins/*
+!plugins/__init__.py
